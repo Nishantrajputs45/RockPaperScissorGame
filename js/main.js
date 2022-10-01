@@ -30,7 +30,7 @@ choice.forEach((choiceEle) => {
         userScoreVal.innerText = "0";
         compScoreVal.innerText = "0";
         result_final_stat.innerText = "Winner:";
-      }, 5000);
+      }, 3000);
     } else {
       playGame(choice);
     }
